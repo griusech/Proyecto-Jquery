@@ -26,6 +26,29 @@
     <title>Proyecto con Javascript</title>
 </head>
 <body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="aviso" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">¡¡Aviso!!</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Lamentablemente Doña pichona cerro sus puertas antes que el sitio web pudiera ser publicado =(
+                        <br>
+                        De todos modos, te invito a mirar hasta donde llegue a desarrollar.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btn-cerrar" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="selector-theme">
         <div id="to-green"></div>
         <div id="to-red"></div>
@@ -92,6 +115,13 @@
         Mi primer proyecto con JS
         <a href="#" class="subir">Subir</a>
     </footer>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+        $('#aviso').modal('show');
+    </script>
 
 </body>
 </html>

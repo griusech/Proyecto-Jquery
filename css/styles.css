@@ -245,3 +245,67 @@ footer{
     width: 100%;
     margin-top: 5px;
 }
+
+/*********** POP UP **************/
+
+.navbar-toggler{
+    font-size: 20px;
+}
+
+.navbar-toggler-icon{
+   width: 20px;
+}
+
+#aviso{
+    margin-top: -6%;
+}
+
+.modal-header{
+    height: 10%;
+    background: #672688;
+    color: white;
+    text-align: center !important;
+}
+
+.modal-content{
+    border-radius: 10px;
+}
+
+.modal-header .close{
+    color: white;
+    margin: auto;
+    padding: 0px;
+    margin-top: 1%;
+    margin-left: 28%;
+}
+
+h5.modal-title{
+    margin: auto;
+    font-size: 180%;
+    margin-left: 40%;
+}
+
+#btn-cerrar{
+    border: 0px;
+    width: 20%;
+}
+
+@media (max-width: 800px){
+    
+    .modal{
+        width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    h5.modal-title{
+        font-size: 180%;
+        margin-left: 35%;
+    }
+
+    #btn-cerrar{
+        border: 0px;
+        width: 38%;
+    }
+
+}
