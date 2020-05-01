@@ -297,9 +297,9 @@ h5.modal-title{
 @media (max-width: 800px){
     
     .modal-content{
-        width: 0%;
+        width: 80%;
         margin-top: 5%;
-        margin-right: 5%;
+
     }
 
     h5.modal-title{
