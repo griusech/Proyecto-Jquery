@@ -1,17 +1,5 @@
 $(document).ready(function(){
 
-//Slider
-
-if(window.location.href.indexOf("index") > -1){
-    $('.galeria').bxSlider({
-    mode: 'fade',
-    captions: true,
-    slideWidth: 1200
-   });
-}
-
-
-
 //Posts
 if(window.location.href.indexOf("index") > -1){
     var posts = [
