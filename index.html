@@ -17,6 +17,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
 
+    <!--Mis Scripts-->
+    <script type="text/javascript" src="js/main.js"></script>
+
     <title>Proyecto con Javascript</title>
 </head>
 
@@ -85,9 +88,37 @@
         <a href="#" class="subir">Subir</a>
     </footer>
 
-        <!--Mis Scripts-->
-        <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+<!-- Modal -->
+<div class="modal fade" id="aviso" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">¡¡Aviso!!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+              Este Proyecto no es responsive, lo hice solo para practicar con Jquery. Si queres pasar directamente a ver el codigo, hace click en "Ver codigo".
+          </p>
+        </div>
+        <div class="modal-footer">
+            <a href="https://github.com/griusech/Proyecto-Jquery/blob/master/js/main.js" target="_blank">
+            <button type="button" class="btn btn-warning"> Ver Codigo</button>
+            </a>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
+          <script>
+              $('#aviso').modal('show');
+          </script>
 </body>
 
 </html>
